@@ -1,0 +1,43 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(147deg, rgba(2, 0, 36, 1) 0%, rgba(44, 44, 101, 1) 35%, rgba(159, 217, 228, 1) 100%);
+  }
+
+  #homepg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  #homepg .buttons {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #homepg .btn-primary {
+    margin-top: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(48, 49, 105, 1) 43%, rgba(89, 90, 140, 1) 100%);
+  }
+
+  #homepg .btn-primary:hover {
+    background: rgb(67, 63, 134);
+    background: linear-gradient(180deg, rgba(67, 63, 134, 1) 0%, rgba(108, 109, 162, 1) 43%, rgba(206, 207, 232, 1) 100%);
+  }
+
+  label.error {
+    color: red;
+    font-size: 0.7rem;
+    display: block;
+    margin-top: 5px;
+  }
